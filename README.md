@@ -1,16 +1,46 @@
-# React + Vite
+# Digital Resume Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist and ultra-responsive personal resume website built with React, Vite, and Tailwind CSS. Designed with a clean monochrome aesthetic and pure text layout.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Monochrome Design: Clean black and white aesthetic without decorative icons or visual distractions.
+- Fully Responsive: Optimized typography and layouts for mobile, tablet, and desktop screens.
+- Interactive Navigation: Tab-based interface switching between About, Projects, and Contact sections.
+- Dark and Light Mode: Built-in theme toggling with preference persistence.
+- Fast Performance: Built using Vite for optimal build times and runtime performance.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Ensure Node.js is installed on your system.
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/Rven24/My-Digital-Resume.git
+
+2. Navigate to the project directory:
+   cd My-Digital-Resume
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+## Build for Production
+
+To create a production build:
+npm run build
+
+To preview the production build locally:
+npm run preview
