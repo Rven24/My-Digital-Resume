@@ -2,7 +2,7 @@ export default function TabAbout() {
   const skillsGroup = [
     {
       category: 'Languages',
-      items: ['HTML', 'CSS', 'JavaScript', 'PHP', 'SQL', 'Dart', 'GD Script', 'C#'],
+      items: ['HTML', 'CSS', 'JavaScript', 'PHP', 'SQL', 'Dart', 'GDScript'],
     },
     {
       category: 'Frameworks & Libraries',
@@ -10,7 +10,7 @@ export default function TabAbout() {
     },
     {
       category: 'Software & Tools',
-      items: ['MySQL', 'SQLite', 'Git', 'GitHub', 'VS Code', 'Godot Engine', 'Blender'],
+      items: ['MySQL', 'SQLite', 'PostgreSQL', 'Git', 'GitHub', 'VS Code', 'Godot Engine', 'Blender', 'Antigravity IDE'],
     },
   ];
 

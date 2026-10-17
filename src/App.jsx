@@ -7,7 +7,7 @@ import TabContact from './components/TabContact';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('about');
-  
+
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem('theme');
     return savedTheme ? savedTheme === 'dark' : true;
@@ -20,9 +20,9 @@ export default function App() {
   return (
     <div className={isDarkMode ? 'dark' : ''}>
       <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-200 font-sans selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black">
-        
+
         <div className="w-full max-w-md sm:max-w-xl md:max-w-2xl mx-auto px-5 sm:px-8 py-10 sm:py-16 md:py-20 relative">
-          
+
           <div className="flex justify-between items-center mb-8 sm:mb-12 pb-4 border-b border-neutral-200 dark:border-neutral-800">
             <span className="text-[10px] sm:text-xs font-mono tracking-widest uppercase text-neutral-400">
               PORTFOLIO // 2026
@@ -46,7 +46,7 @@ export default function App() {
           </main>
 
           <footer className="mt-16 sm:mt-24 pt-6 border-t border-neutral-200 dark:border-neutral-800 text-left text-[10px] sm:text-xs font-mono text-neutral-400 dark:text-neutral-600 uppercase tracking-widest flex justify-between items-center">
-            <span>FAVIAN LESVEVA</span>
+            <span>FAVIAN MUHAMMAD TAUFANI ATHA LESVEVA</span>
             <span>REACT + TAILWIND</span>
           </footer>
 

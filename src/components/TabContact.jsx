@@ -1,7 +1,7 @@
 export default function TabContact() {
   const contacts = [
     { label: 'GitHub', value: 'github.com/Rven24', link: 'https://github.com/Rven24' },
-    { label: 'LinkedIn', value: 'linkedin.com/in/Favian Muhammad Taufani Atha Lesveva', link: 'https://www.linkedin.com/in/favian-muhammad-taufani-atha-lesveva/' },
+    { label: 'LinkedIn', value: 'linkedin.com/in/Favian Muhammad Taufani Atha Lesveva', link: 'https://www.linkedin.com/in/favianlesveva/' },
     { label: 'Email', value: 'favianlesveva@gmail.com', link: 'mailto:favianlesveva@gmail.com' },
   ];
 
