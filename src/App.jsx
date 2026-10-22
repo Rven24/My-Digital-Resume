@@ -4,6 +4,7 @@ import TabNavigation from './components/TabNavigation';
 import TabAbout from './components/TabAbout';
 import TabProjects from './components/TabProjects';
 import TabContact from './components/TabContact';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('about');
@@ -49,10 +50,9 @@ export default function App() {
             <span>FAVIAN MUHAMMAD TAUFANI ATHA LESVEVA</span>
             <span>REACT + TAILWIND</span>
           </footer>
-
         </div>
-
       </div>
+      <Analytics />
     </div>
   );
 }
