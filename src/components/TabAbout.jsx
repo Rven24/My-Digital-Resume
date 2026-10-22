@@ -6,11 +6,15 @@ export default function TabAbout() {
     },
     {
       category: 'Frameworks & Libraries',
-      items: ['React', 'Tailwind CSS', 'Laravel', 'Flutter'],
+      items: ['React.js', 'Next.js', 'Tailwind CSS', 'Laravel', 'Flutter', 'Node.js'],
     },
     {
       category: 'Software & Tools',
       items: ['MySQL', 'SQLite', 'PostgreSQL', 'Git', 'GitHub', 'VS Code', 'Godot Engine', 'Blender', 'Antigravity IDE'],
+    },
+    {
+      category: 'AI Tools',
+      items: ['Gemini AI', 'Claude AI', 'Antigravity AI', 'ChatGPT AI'],
     },
   ];
 
