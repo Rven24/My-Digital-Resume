@@ -1,11 +1,19 @@
 export default function TabProjects() {
   const projectList = [
-    // {
-    //   title: 'Digital Resume Card',
-    //   desc: 'Minimalist interactive personal resume built with React and Tailwind CSS.',
-    //   tech: 'React, Tailwind',
-    //   link: 'https://github.com',
-    // },
+    {
+      title: 'EINusa',
+      desc: 'Landing page modern, responsif, dan siap pakai untuk perusahaan jasa ekspor impor, freight forwarding, dan Pengusaha Pengurusan Jasa Kepabeanan (PPJK) resmi di Indonesia.',
+      tech: 'HTML5, CSS3, JavaScript',
+      link: 'https://einusa.iann.my.id',
+    },
+    {
+      title: 'Digital Edupage',
+      desc: 'frontend website profil resmi institusi pendidikan dengan desain modern, minimalis monokrom, serta siap diintegrasikan dengan backend CMS (seperti Supabase).',
+      tech: 'React.js (vite), Tailwind CSS',
+      link: 'https://github.com/VyannOrg/digital-edupage',
+      soonfeature: '(In Production) Pengembangan saat ini berfokus pada penambahan sistem manajemen konten dinamis, fitur pencarian global, dan pengoptimalan Dark Mode.',
+    },
+
   ];
 
   return (
@@ -33,6 +41,9 @@ export default function TabProjects() {
           </p>
           <span className="text-[10px] sm:text-xs font-mono text-neutral-400 dark:text-neutral-500">
             {project.tech}
+          </span>
+          <span className="text-[8px] sm:text-xs font-mono text-neutral-400 dark:text-neutral-500">
+            {project.soonfeature}
           </span>
         </div>
       ))}
