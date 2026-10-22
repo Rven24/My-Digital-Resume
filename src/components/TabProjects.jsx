@@ -41,8 +41,8 @@ export default function TabProjects() {
           </p>
           <span className="text-[10px] sm:text-xs font-mono text-neutral-400 dark:text-neutral-500">
             {project.tech}
-          </span>
-          <span className="text-[8px] sm:text-xs font-mono text-neutral-400 dark:text-neutral-500">
+          </span> <br />
+          <span className="text-[10px] sm:text-xs font-mono text-neutral-400 dark:text-neutral-500">
             {project.soonfeature}
           </span>
         </div>
