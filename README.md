@@ -26,6 +26,7 @@ A personal, ultra-minimalist, monochrome digital resume card portfolio built wit
 
 ## Project Structure
 
+```
 My-Digital-Resume/
 ├── public/
 │   └── favicon.ico
@@ -42,7 +43,7 @@ My-Digital-Resume/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 ---
 
 ## Quick Start & Development
@@ -50,18 +51,19 @@ My-Digital-Resume/
 To run this project locally, make sure you have Node.js (v18+) and npm installed on your system.
 
 1. Clone the repository:
+   ```
    git clone https://github.com/Rven24/My-Digital-Resume.git
+   
    cd My-Digital-Resume
-
-2. Install dependencies:
+3. Install dependencies:
+   ```
    npm install
-
-3. Start the development server:
+5. Start the development server:
+   ```
    npm run dev
-
-4. Build for production:
+7. Build for production:
+   ```
    npm run build
-
 ---
 
 ## Developer Contact
