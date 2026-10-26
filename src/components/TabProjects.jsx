@@ -13,6 +13,12 @@ export default function TabProjects() {
       link: 'https://github.com/VyannOrg/digital-edupage',
       soonfeature: '(In Production) Pengembangan saat ini berfokus pada penambahan sistem manajemen konten dinamis, fitur pencarian global, dan pengoptimalan Dark Mode.',
     },
+    {
+      title: 'Kotakin App',
+      desc: 'Kotakin adalah sistem manajemen inventaris gudang berbasis Laravel 13 dan Filament v5 dengan antarmuka monokrom yang cepat, efisien, serta dilengkapi proteksi stok anti-minus otomatis, hak akses bertingkat, dasbor analitik real-time, dan generator QR Code SKU instan.',
+      tech: 'Laravel, Alpine.js, Blade, Tailwind CSS, SQlite, Filament v5',
+      link: 'https://github.com/Rven24/Kotakin-App',
+    },
 
   ];
 
