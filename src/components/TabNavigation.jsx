@@ -10,6 +10,7 @@ export default function TabNavigation({ activeTab, setActiveTab }) {
       {tabs.map((tab) => (
         <button
           key={tab.id}
+          type="button"
           onClick={() => setActiveTab(tab.id)}
           className={`pb-3 text-xs sm:text-sm tracking-wider transition-all relative cursor-pointer whitespace-nowrap ${
             activeTab === tab.id
